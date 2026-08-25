@@ -47,6 +47,11 @@
 	color: white;
 }
 
+.name5 {
+	background-color: tan;
+	color: red;
+}
+
 #rotate0 {
 	transform: scale(1, -1);
 }
