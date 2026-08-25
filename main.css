@@ -1,0 +1,44 @@
+.width {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	z-index: -1;
+ }
+ 
+.overflow {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 0;
+}
+
+.text-block {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.name1 {
+	background-color: blue;
+	color: white;
+}
+
+.name2 {
+	background-color: brown;
+	color: yellow;
+}
+
+#rotate0 {
+	transform: scale(1, -1);
+}
+
+#rotate1 {
+	transform: scale(-1, -1);
+}
+
+#rotate2 {
+	transform: scale(1, 1);
+}
+
+#rotate3 {
+	transform: scale(-1, 1);
+}

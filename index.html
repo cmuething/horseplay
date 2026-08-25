@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>horseplay</title>
+	<link rel="stylesheet" href="main.css" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H8YKLN7ZHM"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-H8YKLN7ZHM');
+	  
+	  window.onload = function() {
+		    // Generate a random, unique ID string
+		    var randomId = "rotate" + Math.random().toString(4).substring(3, 4);
+		    
+		    // Change the ID of your target element
+		    document.getElementById("horse").id = randomId;
+		};
+	</script>
+</head>
+<body class="overflow">
+	<div>
+		<div class="text-block">
+			<p2 class="name1">
+				verein horseplay </br>
+			</p2>
+			<p2>
+				<a class="name2" href="mailto:info@horseplay.ch">contact</a>
+			</p2>
+		</div>
+		<!-- <iframe src="https://player.vimeo.com/video/1220901271" width="2000" height="1000" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+		<div>
+			<img class="width" id="horse" src="img/gallop.gif">
+		</div>
+	</div>
+</body>
