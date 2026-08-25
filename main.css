@@ -27,6 +27,11 @@
 	color: yellow;
 }
 
+.name3 {
+	background-color: pink;
+	color: black;
+}
+
 #rotate0 {
 	transform: scale(1, -1);
 }
