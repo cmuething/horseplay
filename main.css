@@ -18,6 +18,15 @@
 	margin-left: 10px;
 }
 
+.text-block-d {
+	position: absolute;
+	bottom: 0;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	max-width: 300px;
+}
+
 .name1 {
 	background-color: blue;
 	color: white;
@@ -31,6 +40,11 @@
 .name3 {
 	background-color: pink;
 	color: black;
+}
+
+.name4 {
+	background-color: green;
+	color: white;
 }
 
 #rotate0 {
